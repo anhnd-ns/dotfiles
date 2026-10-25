@@ -43,6 +43,7 @@ source ~/.orbstack/shell/init.zsh 2>/dev/null || :
 autoload -Uz edit-command-line
 zle -N edit-command-line
 bindkey '^x^e' edit-command-line
+bindkey -M vicmd '^x^e' edit-command-line
 
 # ---------- Aliases ----------
 alias nodejs="node"
